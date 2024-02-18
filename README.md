@@ -1,8 +1,5 @@
-[![Build Status](https://travis-ci.org/RxNT/json-rules-engine-simplified.svg?branch=master)](https://travis-ci.org/RxNT/json-rules-engine-simplified)
-[![Coverage Status](https://coveralls.io/repos/github/RxNT/json-rules-engine-simplified/badge.svg?branch=master)](https://coveralls.io/github/RxNT/json-rules-engine-simplified?branch=master)
-[![npm version](https://badge.fury.io/js/json-rules-engine-simplified.svg)](https://badge.fury.io/js/json-rules-engine-simplified)
 # json-rules-engine-simplified
-A simple rules engine expressed in JSON
+A simple rules engine expressed in JSON - Updated for NodeJS 20.
 
 The primary goal of this project is to be 
 an alternative of [json-rules-engine](https://github.com/CacheControl/json-rules-engine) for [react-jsonschema-form-conditionals](https://github.com/RxNT/react-jsonschema-form-conditionals),
