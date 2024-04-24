@@ -1,5 +1,6 @@
 import { predicatesFromCondition } from "../src/validation";
 import { testInProd } from "./utils";
+import {test, expect} from "vitest";
 
 let schema = {
   definitions: {

@@ -9,6 +9,7 @@ import {
   validateConditionFields,
 } from "../src/validation";
 import { testInProd } from "./utils";
+import {test, expect} from "vitest";
 
 function conditionsFrom(rules) {
   return rules.map(({ conditions }) => conditions);

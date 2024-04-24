@@ -1,4 +1,5 @@
 import conditionsMeet from "../src/conditionsMeet";
+import {test, expect} from "vitest";
 
 let obj = {
   medications: [

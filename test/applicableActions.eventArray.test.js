@@ -1,4 +1,5 @@
 import applicableActions from "../src/applicableActions";
+import {test, expect} from "vitest";
 
 test("check nested fields work", function() {
   let rules = [

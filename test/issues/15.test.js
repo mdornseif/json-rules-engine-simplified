@@ -1,5 +1,6 @@
 import Engine from "../../src";
 import { listInvalidFields } from "../../src/validation";
+import {test, expect} from "vitest";
 
 test("support $ single level of nesting", () => {
   let rules = [

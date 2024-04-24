@@ -1,5 +1,6 @@
 import predicate from "predicate";
 import { listInvalidPredicates } from "../src/validation";
+import {test, expect} from "vitest";
 
 let schema = {
   type: "object",

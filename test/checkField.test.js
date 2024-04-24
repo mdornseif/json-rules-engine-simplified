@@ -1,4 +1,5 @@
 import checkField from "../src/checkField";
+import {test, expect} from "vitest";
 
 test("single line empty checkField", () => {
   expect(checkField("", "empty")).toBeTruthy();

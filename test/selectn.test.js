@@ -1,4 +1,5 @@
 import selectn from "selectn";
+import {test, expect} from "vitest";
 
 test("selectn on array", function() {
   let a = {

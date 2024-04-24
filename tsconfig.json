@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strict": false
+  },
+  "extends": "@tsconfig/vite-react/tsconfig.json",
+  "include": ["src"]
+}

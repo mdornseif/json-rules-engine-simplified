@@ -1,4 +1,5 @@
 import Engine from "../../src";
+import {test, expect} from "vitest";
 
 test("simple relevant rules work", () => {
   let rules = [

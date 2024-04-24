@@ -1,5 +1,6 @@
 import predicate from "predicate";
 import Engine from "../src/Engine";
+import {test, expect} from "vitest";
 
 test("equal work with same strings", function() {
   expect(predicate.eq("Will", "Will")).toBeTruthy();

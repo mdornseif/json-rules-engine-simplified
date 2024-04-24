@@ -1,4 +1,5 @@
 import Engine from "../src/Engine";
+import {test, expect} from "vitest";
 
 let EVENT = {
   type: "remove",

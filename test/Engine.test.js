@@ -1,4 +1,5 @@
 import Engine from "../src/index";
+import {test, expect} from "vitest";
 
 let rules = [
   {

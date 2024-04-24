@@ -1,4 +1,5 @@
 import { toRelCondition } from "../src/conditionsMeet";
+import {test, expect} from "vitest";
 
 test("rel simple condition", () => {
   expect(toRelCondition({ less: "$b" }, { b: 11 })).toEqual({ less: 11 });

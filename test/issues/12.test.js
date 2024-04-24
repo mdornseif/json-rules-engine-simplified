@@ -1,4 +1,5 @@
 import Engine from "../../src/Engine";
+import {test, expect} from "vitest";
 
 const ADDRESS_SCHEMA = {
   type: "object",

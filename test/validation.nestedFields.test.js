@@ -1,5 +1,6 @@
 import Engine from "../src/Engine";
 import { listAllPredicates } from "../src/validation";
+import {test, expect} from "vitest";
 
 let rules = [
   {

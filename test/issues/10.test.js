@@ -3,6 +3,7 @@ import {
   validateConditionFields,
   validatePredicates,
 } from "../../src/validation";
+import {test, expect} from "vitest";
 
 let rules = [
   {

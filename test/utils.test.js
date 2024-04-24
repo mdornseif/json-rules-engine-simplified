@@ -9,6 +9,7 @@ import {
   selectRef,
 } from "../src/utils";
 import { testInProd } from "./utils";
+import {test, expect} from "vitest";
 
 test("array flatmap", () => {
   expect(flatMap([[1, 2], [3], [4, 5]], x => x)).toEqual([1, 2, 3, 4, 5]);

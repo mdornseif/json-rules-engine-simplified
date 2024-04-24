@@ -1,4 +1,5 @@
 import applicableActions from "../src/applicableActions";
+import {test, expect} from "vitest";
 
 const DISPLAY_MESSAGE_SIMPLE = {
   type: "message",
