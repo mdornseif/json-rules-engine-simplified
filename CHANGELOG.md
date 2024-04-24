@@ -1,3 +1,23 @@
+# 1.0.0 (2024-04-24)
+
+
+### Bug Fixes
+
+* add package-lock.json ([a780d72](https://github.com/mdornseif/json-rules-engine-simplified/commit/a780d72f3a2d9ddac22397fcc0cb55dbb0b0164f))
+* **CI:** add requirements for automated release ([c437872](https://github.com/mdornseif/json-rules-engine-simplified/commit/c437872ba73eebaa5bae13b0309b7ac769ba82af))
+* publish scoped package ([462a1c4](https://github.com/mdornseif/json-rules-engine-simplified/commit/462a1c4e1b3f205ae968a223705444e17352552e))
+* removed legacy dependencies ([50bc2cc](https://github.com/mdornseif/json-rules-engine-simplified/commit/50bc2cc939f2b04f759bbbde95d199b63cae2679))
+
+
+### Features
+
+* Convert to ESM ([d15edac](https://github.com/mdornseif/json-rules-engine-simplified/commit/d15edacb786e8924d3557ea62c0dfd6ef2da0c6f))
+
+
+### BREAKING CHANGES
+
+* this package now is pure ESM.
+
 <a name="0.1.17"></a>
 ## <small>0.1.17 (2018-04-05)</small>
 
@@ -157,6 +177,3 @@
 * Initial commit ([459d691](https://github.com/RxNT/json-rules-engine-simplified/commit/459d691))
 * Merging from conditionals project ([245c29c](https://github.com/RxNT/json-rules-engine-simplified/commit/245c29c))
 * updating validation ([7344f44](https://github.com/RxNT/json-rules-engine-simplified/commit/7344f44))
-
-
-
