@@ -36,7 +36,6 @@
     "dev": "vite",
     "doc": "npx typedoc --out docs src/index.ts",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 && tsc --noEmit",
-    "prepare": "husky",
     "preview": "vite preview",
     "size": "npx vite-bundle-visualizer -t sunburst # npx source-map-explorer dist/index.js",
     "test": "TZ=utc vitest run",
